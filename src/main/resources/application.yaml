@@ -1,0 +1,14 @@
+cloud:
+  aws:
+    region:
+      static: ca-central-1
+    stack:
+      auto: false
+    credentials:
+      instanceProfile: true
+      profile-name: local
+      profile-path: c:\Users\eric\.aws\credentials
+config:
+  aws:
+    s3:
+      url: http://127.0.0.1:4566
